@@ -2,7 +2,7 @@
     Colors with Variables - v1.3 
 ======================================*/
 
-@import url(root/variables.css);
+/* @import url(root/variables.css); */
 /*
 Curent code 
 ======================*/
@@ -48,13 +48,3 @@ Curent code
 .border {
     border: 1px var(--style);
 }
-
-/* Light Blue: #afd2f0
-   Dark Blue: #0f4574
-   Bright Red: #fa0606
-   Greeny: #095
-
-   Link Color: #3674bb
-   Post Background Color: #fffbd8
-   Post Title Color: #9a8f2e 
-*/
