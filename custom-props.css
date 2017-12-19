@@ -1,0 +1,160 @@
+/*==============================================* 
+ *  Custom-Props - v1.4.2                       *
+ *  (c)2017, by @htmlstrap                      *
+ *==============================================*/
+
+:root {
+    /* Typography 
+    --------------------------------------------*/
+    --font-family-sans-serif: "Segoe UI", Verdana, Helvetica, "Helvetica Neue", Arial, sans-serif;
+    --font-family-serif: Georgia, Times, "Times New Roman", serif;
+    --font-family-monospace: Monaco, Menlo, Consolas,
+    "Courier New", monospace;
+    --sans-serif: var(--font-family-sans-serif);
+    --serif: var(--font-family-serif);
+    --monospace: var(--font-family-monospace);
+
+    --base-font-weight: 300;
+    --font-size-base: 14px;
+    --font-size-lg: calc(var(--font-size-base) * 1.25);
+    /* ~18px */
+    --font-size-md: calc(var(--font-size-base) * 1.05);
+    /* ~16px */
+    --font-size-sm: calc(var(--font-size-base) * 0.85);
+    /* ~12px */
+    --font-size-xs: calc(var(--font-size-base) * 0.75);
+    /* ~11px */
+    /* Baseline for the line-height of the body */
+    /* To be used in conjunction with --font-size-base */
+    --line-height-base: 20px;
+    /* Enable the option to customize headings */
+    --headings-font-family: inherit;
+    /* Text color base */
+    --text-color-base: #333;
+
+    /* Backround Color 
+    --------------------------------------------*/
+    --default: #C7C7C7;
+    --primary: #12438A;
+    /* #0f4574; */
+    --success: #40A659;
+    --info: #65AAF6;
+    --warning: #EAC85C;
+    --danger: #9C311A;
+    --invert: #222222;
+
+    /* Border Color */
+    --bdr-default: solid #686868;
+    --bdr-primary: solid #003162;
+    --bdr-success: solid #0B7124;
+    --bdr-info: solid #044995;
+    --bdr-warning: solid #735100;
+    --bdr-danger: solid #780D00;
+
+    /* Text Color */
+    --txt-default: #686868;
+    --txt-primary: #003162;
+    --txt-success: #0B7124;
+    --txt-info: #044995;
+    --txt-warning: #735100;
+    --txt-danger: #780D00;
+    --txt-invert: #ffffff;
+
+    /* Alerts & Panels */
+    --lrt-default: #EeEeee;
+    --lrt-primary: #C2EBFF;
+    --lrt-success: #E2FDDC;
+    --lrt-info: #EEF6F6;
+    --lrt-warning: #FFFFE4;
+    --lrt-danger: #FEF2DA;
+
+    /* Buttons */
+    --btn-default: linear-gradient(#eeeeee, #888888);
+    --btn-primary: linear-gradient(#5780C1, #244D8E);
+    --btn-success: linear-gradient(#74BE6B, #558B4F);
+    --btn-info: linear-gradient(#9CEDFF, #7FCDEF);
+    --btn-warning: linear-gradient(#F3BA34, #d39925);
+    --btn-danger: linear-gradient(#D75F44, #BA4227);
+
+    /* On :hover colors */
+    --hvr-default: linear-gradient(#888888, #eeeeee);
+    --hvr-primary: linear-gradient(#003162, #044995);
+    --hvr-success: linear-gradient(#558B4F, #74BE6B);
+    --hvr-info: linear-gradient( #7FCDEF, #9CEDFF);
+    --hvr-warning: linear-gradient(#d39925, #F3BA34);
+    --hvr-danger: linear-gradient(#BA4227, #D75F44);
+
+    /* More Colors */
+    --post-bg: #fffbd8;
+    --link-color: #3674bb;
+    /* #d55 */
+    --color: var(--color);
+    --brand-color: var(--color);
+    /* 
+        Mobile First 
+    --------------------------------------------*/
+    --xs-screen: 500px;
+    --sm-screen: 768px;
+    --md-screen: 992px;
+    --lg-screen: 1200px;
+
+    /* Other Measures and Units */
+    --gap: 15px;
+    /* same as gutter */
+    --inner: 20px;
+    /* padding */
+    --outer: 15px;
+    /* margin */
+    --auto: auto;
+    --val: var(--val);
+    /* same as : initial; */
+    --arg: var(--arg);
+    /* same as : initial; */
+    --argX: var(--arg);
+    --argY: var(--arg);
+    --align: var(--align);
+    /* same as : initial; */
+    --alignX: var(--align);
+    --alignY: var(--align);
+
+    /* Base Size */
+    --device-width: 100vw;
+    --full-width: 100%;
+    --size: 20px;
+    --sizeX: var(--size);
+    --sizeY: var(--size);
+    --radius: 10px;
+    --bdr-radius: 0 5px 5px 0;
+    /* for callouts */
+    --style: solid #666;
+
+    /* Action */
+    --moveX: var(--arg);
+    --moveY: var(--arg);
+
+    /* Position */
+    --relt: relative;
+    --absl: absolute;
+    /* 
+        Background image (Parallax)
+    --------------------------------------------*/
+    --position: center center/cover no-repeat;
+    --parallax: center center/cover no-repeat fixed;
+    --img: var(--position);
+
+    /*
+        More Varis
+    ============================================*/
+}
+
+/* more colors */
+
+/* Light Blue: #afd2f0
+   Dark Blue: #0f4574  
+   Bright Red: #fa0606
+   Teal Green: #095 
+
+   Link Color: #3674bb
+   Post Background Color: #fffbd8
+   Post Title Color: #9a8f2e 
+*/
