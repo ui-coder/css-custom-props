@@ -1,5 +1,5 @@
-# css-custom-props
+# CSS Variables
 #============================================== 
-#  CSS Variables - v1.4.2                                                 
+#  css-custom-props - v1.4.2                                                 
 #  (c)2017, by @htmlstrap  							                                  
 #==============================================
