@@ -112,6 +112,14 @@
     --lg: 960px;
     --xl: 1140px;
     
+    /*------------------------------------------- 
+        custom-media-queries 
+    --------------------------------------------*/
+    @custom-media --phone (width >= 576px);
+    @custom-media --tablet (width >= 768px);
+    @custom-media --desktop (width >= 992px);
+    @custom-media --large-desktop (width >= 1200px);
+    
     /* Other Measures and Units */
     --gap: 15px;
     /* same as gutter */
@@ -160,11 +168,4 @@
         More Varis
     ============================================*/
 }
-    /*------------------------------------------- 
-        custom-media-queries 
-    --------------------------------------------*/
-    @custom-media --phone (width >= 576px);
-    @custom-media --tablet (width >= 768px);
-    @custom-media --desktop (width >= 992px);
-    @custom-media --large-desktop (width >= 1200px);
 
