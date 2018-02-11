@@ -105,7 +105,13 @@
     --lg-screen: 992px;
     /* Extra large screen / wide desktop */
     --xl-screen: 1200px;
-
+    
+    /* container-max-width */
+    --sm: 540px;
+    --md: 720px;
+    --lg: 960px;
+    --xl: 1140px;
+    
     /* Other Measures and Units */
     --gap: 15px;
     /* same as gutter */
