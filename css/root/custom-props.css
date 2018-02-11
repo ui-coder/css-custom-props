@@ -159,5 +159,12 @@
     /*
         More Varis
     ============================================*/
-    
 }
+    /*------------------------------------------- 
+        custom-media-queries 
+    --------------------------------------------*/
+    @custom-media --phone (width >= 576px);
+    @custom-media --tablet (width >= 768px);
+    @custom-media --desktop (width >= 992px);
+    @custom-media --large-desktop (width >= 1200px);
+
