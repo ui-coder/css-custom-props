@@ -90,7 +90,8 @@
     --post-bg: #fffbd8;
     --link-color: #3674bb;
     /* #d55 */
-    --color: var(--color);
+    --color: var(--color); 
+    /* same as : initial; */
     --brand-color: var(--color);
     /* 
         Mobile First 
@@ -148,6 +149,8 @@
     --radius: 10px;
     --bdr-radius: 0 5px 5px 0;
     /* for callouts */
+    
+    /* styling variables */
     --style: solid #666;
 
     /* Action */
