@@ -160,6 +160,11 @@
     /* Position */
     --relt: relative;
     --absl: absolute;
+    --stky: sticky;
+        
+    /* z-index */ 
+    --z-sticky: 1020 !default;
+    --z-fixed:  1030 !default;
     /* 
         Background image (Parallax)
     --------------------------------------------*/
