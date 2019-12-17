@@ -14,7 +14,7 @@
 }
 
 .bg-secondary {
-    background-color: var(--secondary);
+    background-color: var(--default);
 }
 
 .bg-success {
@@ -55,13 +55,13 @@
 }
 
 .stripe-secondary {
-    background: var(--lrt-secondary);
-    border-top: var(--bdr-secondary);
-    border-bottom: var(--bdr-secondary);
+    background: var(--lrt-default);
+    border-top: var(--bdr-default);
+    border-bottom: var(--bdr-default);
 }
 
 .stripe-secondary:hover {
-    background: var(--hvr-secondary);
+    background: var(--hvr-default);
 }
 
 .stripe-success {
@@ -118,27 +118,27 @@
     Text
 ------------------------------------*/
 
-.text-primary {
+.txt-primary {
     color: var(--txt-primary);
 }
 
-.text-secondary {
-    color: var(--txt-secondary);
+.txt-secondary {
+    color: var(--txt-default);
 }
 
-.text-success {
+.txt-success {
     color: var(--txt-success);
 }
 
-.text-info {
+.txt-info {
     color: var(--txt-info);
 }
 
-.text-warning {
+.txt-warning {
     color: var(--txt-warning);
 }
 
-.text-danger {
+.txt-danger {
     color: var(--txt-danger);
 }
 
@@ -261,7 +261,7 @@ button.close {
     Table
 -------------------------------------------*/
 .table {
-    border: var(--bdr-secondary);
+    border: var(--bdr-default);
     display: var(--d-tbl);
     text-align: center;
     padding: 0 10px;
@@ -328,7 +328,7 @@ button.close {
 }
 
 .trow-secondary {
-    background: var(--secondary);
+    background: var(--default);
 }
 
 .trow-success {
