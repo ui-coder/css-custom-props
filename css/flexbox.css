@@ -203,7 +203,7 @@ justify-content - X (axis)
 }
 
 .row {
-  display: var(--flx);
+  display: var(--d-flx);
 }
 [class*="col"] {
 /*   border: 1px var(--style); */
