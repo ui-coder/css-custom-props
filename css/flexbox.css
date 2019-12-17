@@ -11,20 +11,20 @@
 -------------------------------------*/
 
 .row {
-    flex-direction: var(--flex-row);
+    flex-flow: var(--flex-row);
     /* default */
 }
 
 .row-rev {
-    flex-direction: var(--row-rev);
+    flex-flow: var(--row-rev);
 }
 
 .col {
-    flex-direction: var(--flex-col);
+    flex-flow: var(--flex-col);
 }
 
 .col-rev {
-    flex-direction: var(--col-rev);
+    flex-flow: var(--col-rev);
 }
 
 /* flex-wrap 
