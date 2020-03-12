@@ -486,25 +486,25 @@ button.close {
 }
 
 .bdr-primary {
-    border-color: var(--primary);
+    border-color: var(--bdr-primary);
 }
 
 .bdr-secondary {
-    border-color: var(--default);
+    border-color: var(--bdr-default);
 }
 
 .bdr-success {
-    border-color: var(--success);
+    border-color: var(--bdr-success);
 }
 
 .bdr-info {
-    border-color: var(--info);
+    border-color: var(--bdr-info);
 }
 
 .bdr-warning {
-    border-color: var(--warning);
+    border-color: var(--bdr-warning);
 }
 
 .bdr-danger {
-    border-color: var(--danger);
+    border-color: var(--bdr-danger);
 }
