@@ -202,8 +202,31 @@ justify-content - X (axis)
     align-self: var(--base);
 }
 
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 .row {
+    flex-direction: var(--flex-row);
+    display: -ms-flexbox;
     display: var(--d-flx);
+    -ms-flex-wrap: var(--flex-wrap);
+    flex-wrap: var(--flex-wrap);
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.col {
+    flex-direction: var(--flex-col);
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    max-width: 100%;
 }
 
 [class*="col"] {
