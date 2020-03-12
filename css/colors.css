@@ -32,60 +32,77 @@
 .bg-danger {
     background-color: var(--danger);
 }
+
 .bg-dark {
     background-color: var(--inverse);
 }
+
 /*    
     Shades of Black
 ===============================*/
 .black1 {
     background: var(--black-a10);
 }
+
 .black2 {
     background: var(--black-a20);
 }
+
 .black3 {
     background: var(--black-a30);
 }
+
 .black4 {
     background: var(--black-a40);
 }
+
 .black5 {
     background: var(--black-a50);
 }
+
 .black6 {
     background: var(--black-a60);
 }
+
 .black7 {
     background: var(--black-a70);
 }
+
 .black8 {
     background: var(--black-a80);
 }
+
 .black9 {
     background: var(--black-a90);
 }
+
 .black10 {
     background: var(--black-a10);
 }
+
 /*
     Shades of Gray
 ===============================*/
 .dark-gray {
     background: var(--gray-darker);
 }
+
 .dim-gray {
     background: var(--gray-dark);
 }
+
 .gray {
     background: var(--gray);
 }
+
 .lite-gray {
     background: var(--gray-light);
 }
+
 .wan-gray {
     background: var(--gray-lighter);
 }
+
 /*
     Stripes 
 ===============================*/
@@ -192,12 +209,14 @@
 .txt-danger {
     color: var(--txt-danger);
 }
+
 /*
     More Colors
 -----------------------------------*/
 .lazer-lemon {
     color: var(--lazer-lemon);
 }
+
 /* 
     Alerts 
 -----------------------------------*/
@@ -405,4 +424,63 @@ button.close {
 .trow-danger {
     background: var(--danger);
     color: var(--txt-invert);
+}
+
+/*
+    Borders
+------------------------------------------*/
+[class*="bdr-"],
+[class*="no-bdr-"] {
+    width: 100px;
+    height: 100px;
+    margin: var(--outer);
+    padding: var(--inner);
+}
+
+.bdr-all {
+    border: 2px solid;
+}
+
+.bdr-top {
+    border-top: 2px solid;
+}
+
+.bdr-right {
+    border-right: 2px solid;
+}
+
+.bdr-bottom {
+    border-bottom: 2px solid;
+}
+
+.bdr-left {
+    border-left: 2px solid;
+}
+
+.no-bdr-all {
+    border: 0;
+}
+
+.no-bdr-top {
+    border-right: 2px solid;
+    border-bottom: 2px solid;
+    border-left: 2px solid;
+}
+
+.no-bdr-right {
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    border-left: 2px solid;
+}
+
+.no-bdr-bottom {
+    border-top: 2px solid;
+    border-right: 2px solid;
+    border-left: 2px solid;
+}
+
+.no-bdr-left {
+    border-top: 2px solid;
+    border-right: 2px solid;
+    border-bottom: 2px solid;
 }
