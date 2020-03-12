@@ -1,7 +1,7 @@
 /*
 *==========================================* 
-*   CSS Colores - v1.1                     *
-*   (c)June 10.2019, built by @htmlstrap   *
+*   CSS Colores - v1.2                     *
+*   (c)March 16.2020, built by @htmlstrap   *
 *==========================================*/
 @import url(root/custom-props.css);
 
@@ -101,6 +101,89 @@
 
 .wan-gray {
     background: var(--gray-lighter);
+}
+
+/*
+    Borders
+------------------------------------------*/
+[class*="bdr-"],
+[class*="no-bdr-"] {
+    width: 100px;
+    height: 100px;
+    margin: var(--outer);
+    padding: var(--inner);
+}
+
+.bdr-all {
+    border: 2px solid;
+}
+
+.bdr-top {
+    border-top: 2px solid;
+}
+
+.bdr-right {
+    border-right: 2px solid;
+}
+
+.bdr-bottom {
+    border-bottom: 2px solid;
+}
+
+.bdr-left {
+    border-left: 2px solid;
+}
+
+.no-bdr-all {
+    border: 0;
+}
+
+.no-bdr-top {
+    border-right: 2px solid;
+    border-bottom: 2px solid;
+    border-left: 2px solid;
+}
+
+.no-bdr-right {
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    border-left: 2px solid;
+}
+
+.no-bdr-bottom {
+    border-top: 2px solid;
+    border-right: 2px solid;
+    border-left: 2px solid;
+}
+
+.no-bdr-left {
+    border-top: 2px solid;
+    border-right: 2px solid;
+    border-bottom: 2px solid;
+}
+
+.bdr-primary {
+    border-color: var(--primary);
+}
+
+.bdr-secondary {
+    border-color: var(--default);
+}
+
+.bdr-success {
+    border-color: var(--success);
+}
+
+.bdr-info {
+    border-color: var(--info);
+}
+
+.bdr-warning {
+    border-color: var(--warning);
+}
+
+.bdr-danger {
+    border-color: var(--danger);
 }
 
 /*
@@ -424,87 +507,4 @@ button.close {
 .trow-danger {
     background: var(--danger);
     color: var(--txt-invert);
-}
-
-/*
-    Borders
-------------------------------------------*/
-[class*="bdr-"],
-[class*="no-bdr-"] {
-    width: 100px;
-    height: 100px;
-    margin: var(--outer);
-    padding: var(--inner);
-}
-
-.bdr-all {
-    border: 2px solid;
-}
-
-.bdr-top {
-    border-top: 2px solid;
-}
-
-.bdr-right {
-    border-right: 2px solid;
-}
-
-.bdr-bottom {
-    border-bottom: 2px solid;
-}
-
-.bdr-left {
-    border-left: 2px solid;
-}
-
-.no-bdr-all {
-    border: 0;
-}
-
-.no-bdr-top {
-    border-right: 2px solid;
-    border-bottom: 2px solid;
-    border-left: 2px solid;
-}
-
-.no-bdr-right {
-    border-top: 2px solid;
-    border-bottom: 2px solid;
-    border-left: 2px solid;
-}
-
-.no-bdr-bottom {
-    border-top: 2px solid;
-    border-right: 2px solid;
-    border-left: 2px solid;
-}
-
-.no-bdr-left {
-    border-top: 2px solid;
-    border-right: 2px solid;
-    border-bottom: 2px solid;
-}
-
-.bdr-primary {
-    border-color: var(--primary);
-}
-
-.bdr-secondary {
-    border-color: var(--default);
-}
-
-.bdr-success {
-    border-color: var(--success);
-}
-
-.bdr-info {
-    border-color: var(--info);
-}
-
-.bdr-warning {
-    border-color: var(--warning);
-}
-
-.bdr-danger {
-    border-color: var(--danger);
 }
