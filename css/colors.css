@@ -484,6 +484,27 @@ button.close {
     border-right: 2px solid;
     border-bottom: 2px solid;
 }
+
 .bdr-primary {
-    border-color: var(--bdr-primary);
+    border-color: var(--primary);
+}
+
+.bdr-secondary {
+    border-color: var(--default);
+}
+
+.bdr-success {
+    border-color: var(--success);
+}
+
+.bdr-info {
+    border-color: var(--info);
+}
+
+.bdr-warning {
+    border-color: var(--warning);
+}
+
+.bdr-danger {
+    border-color: var(--danger);
 }
