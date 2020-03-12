@@ -192,7 +192,12 @@
 .txt-danger {
     color: var(--txt-danger);
 }
-
+/*
+    More Colors
+-----------------------------------*/
+.lazer-lemon {
+    color: var(--lazer-lemon);
+}
 /* 
     Alerts 
 -----------------------------------*/
