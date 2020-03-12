@@ -214,8 +214,8 @@ justify-content - X (axis)
     flex-direction: var(--flex-row);
     display: -ms-flexbox;
     display: var(--d-flx);
-    -ms-flex-wrap: var(--flex-wrap);
-    flex-wrap: var(--flex-wrap);
+/*    -ms-flex-wrap: var(--flex-wrap);*/
+/*    flex-wrap: var(--flex-wrap);*/
     margin-right: -15px;
     margin-left: -15px;
 }
@@ -230,7 +230,6 @@ justify-content - X (axis)
 }
 
 [class*="col"] {
-    /*   border: 1px var(--style); */
     margin: 0 var(--wide);
     padding: var(--inner);
     height: auto;
