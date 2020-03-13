@@ -4,18 +4,22 @@
 *   (c)June 10.2019, built by @htmlstrap   *
 *==========================================*/
 @import url(root/custom-props.css);
+
 /*
     Font Family 
 --------------------------*/
 .sans-serif {
     font-family: var(--sans-serif);
 }
+
 .serif {
     font-family: var(--serif);
 }
+
 .monospace {
     font-family: var(--monospace);
 }
+
 /*
     Text alignment
 --------------------------*/
@@ -108,6 +112,22 @@
 
 .inner {
     padding: var(--inner) 0;
+}
+
+.outer {
+    margin: 0 var(--outer);
+}
+
+.gap-left {
+    margin-left: var(--gap);
+}
+
+.gap-right {
+    margin-right: var(--gap);
+}
+
+.gap-both {
+    margin: 0 var(--gap);
 }
 
 /*
