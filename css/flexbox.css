@@ -254,8 +254,8 @@ justify-content - X (axis)
 }
 
 .col-4 {
-    -ms-flex: 0 0 4;
-    flex: 0 0 4;
+    -ms-flex: 4;
+    flex: 4;
     width: calc((4 / 12) * 100%);
 }
 
