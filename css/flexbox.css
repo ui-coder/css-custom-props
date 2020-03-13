@@ -232,75 +232,76 @@ justify-content - X (axis)
 }
 
 @media screen and (min-width: 922px) {
-    
-}.col-1 {
-    -ms-flex: 0 0 .8;
-    flex: 0 0 .8;
-    width: calc((1 / 12) * 100%);
-}
 
-.col-2 {
-    -ms-flex: 0 0 1.6;
-    flex: 0 0 1.6;
-    width: calc((2 / 12) * 100%);
-}
+    .col-1 {
+        -ms-flex: 0 0 .8;
+        flex: 0 0 .8;
+        width: calc((1 / 12) * 100%);
+    }
 
-.col-3 {
-    -ms-flex: 0 0 2.5;
-    flex: 0 0 2.5;
-    width: calc((3 / 12) * 100%);
-}
+    .col-2 {
+        -ms-flex: 0 0 1.6;
+        flex: 0 0 1.6;
+        width: calc((2 / 12) * 100%);
+    }
 
-.col-4 {
-    -ms-flex: 0 0 3.3;
-    flex: 0 0 3.3;
-    width: calc((4 / 12) * 100%);
-}
+    .col-3 {
+        -ms-flex: 0 0 2.5;
+        flex: 0 0 2.5;
+        width: calc((3 / 12) * 100%);
+    }
 
-.col-5 {
-    -ms-flex: 0 0 4.1;
-    flex: 0 0 4.1;
-    width: calc((5 / 12) * 100%);
-}
+    .col-4 {
+        -ms-flex: 0 0 3.3;
+        flex: 0 0 3.3;
+        width: calc((4 / 12) * 100%);
+    }
 
-.col-6 {
-    -ms-flex: 0 0 5;
-    flex: 0 0 5;
-    width: calc((6 / 12) * 100%);
-}
+    .col-5 {
+        -ms-flex: 0 0 4.1;
+        flex: 0 0 4.1;
+        width: calc((5 / 12) * 100%);
+    }
 
-.col-7 {
-    -ms-flex: 0 0 5.8;
-    flex: 0 0 5.8;
-    width: calc((7 / 12) * 100%);
-}
+    .col-6 {
+        -ms-flex: 0 0 5;
+        flex: 0 0 5;
+        width: calc((6 / 12) * 100%);
+    }
 
-.col-8 {
-    -ms-flex: 0 0 6.6;
-    flex: 0 0 6.6;
-    width: calc((8 / 12) * 100%);
-}
+    .col-7 {
+        -ms-flex: 0 0 5.8;
+        flex: 0 0 5.8;
+        width: calc((7 / 12) * 100%);
+    }
 
-.col-9 {
-    -ms-flex: 0 0 7.5;
-    flex: 0 0 7.5;
-    width: calc((9 / 12) * 100%);
-}
+    .col-8 {
+        -ms-flex: 0 0 6.6;
+        flex: 0 0 6.6;
+        width: calc((8 / 12) * 100%);
+    }
 
-.col-10 {
-    -ms-flex: 0 0 8.3;
-    flex: 0 0 8.3;
-    width: calc((10 / 12) * 100%);
-}
+    .col-9 {
+        -ms-flex: 0 0 7.5;
+        flex: 0 0 7.5;
+        width: calc((9 / 12) * 100%);
+    }
 
-.col-11 {
-    -ms-flex: 0 0 9.1;
-    flex: 0 0 9.1;
-    width: calc((11 / 12) * 100%);
-}
+    .col-10 {
+        -ms-flex: 0 0 8.3;
+        flex: 0 0 8.3;
+        width: calc((10 / 12) * 100%);
+    }
 
-.col-12 {
-    -ms-flex: 0 0 10;
-    flex: 0 0 10;
-    width: calc((12 / 12) * 100%);
+    .col-11 {
+        -ms-flex: 0 0 9.1;
+        flex: 0 0 9.1;
+        width: calc((11 / 12) * 100%);
+    }
+
+    .col-12 {
+        -ms-flex: 0 0 10;
+        flex: 0 0 10;
+        width: calc((12 / 12) * 100%);
+    }
 }
