@@ -217,22 +217,12 @@ justify-content - X (axis)
 }
 
 .row {
-    flex-direction: var(--flex-row);
-    display: -ms-flexbox;
     display: var(--d-flx);
-    /*    -ms-flex-wrap: var(--flex-wrap);*/
-    /*    flex-wrap: var(--flex-wrap);*/
-    margin-right: -15px;
-    margin-left: -15px;
+    flex-flow: var(--row-nowrap);
 }
 
 .col {
     flex-direction: var(--flex-col);
-    -ms-flex-preferred-size: 0;
-    flex-basis: 0;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
-    max-width: 100%;
 }
 
 [class*="col"] {
