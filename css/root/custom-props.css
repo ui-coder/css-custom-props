@@ -61,12 +61,12 @@
     --danger: #9C311A;
     --inverse: #222222;
     /* Border Color */
-    --bdr-default: solid #686868;
-    --bdr-primary: solid #003162;
-    --bdr-success: solid #0B7124;
-    --bdr-info: solid #044995;
-    --bdr-warning: solid #735100;
-    --bdr-danger: solid #780D00;
+    --bdr-default: #686868;
+    --bdr-primary: #003162;
+    --bdr-success: #0B7124;
+    --bdr-info: #044995;
+    --bdr-warning: #735100;
+    --bdr-danger: #780D00;
     /* Text Color */
     --txt-default: #686868;
     --txt-primary: #003162;

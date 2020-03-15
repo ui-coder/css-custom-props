@@ -102,6 +102,7 @@
 .wan-gray {
     background: var(--gray-lighter);
 }
+
 /*
     Borders
 ------------------------------------------*/
@@ -114,76 +115,87 @@
 }
 
 .bdr-all {
+    border-style: solid;
     border-width: 2px;
 }
 
 .bdr-top {
-    border-top-width: 2px;
+    border-top-style: solid;
+    border-width: 2px;
 }
 
 .bdr-right {
-    border-right-width:  2px;
+    border-right-style: solid;
+    border-width: 2px;
 }
 
 .bdr-bottom {
-    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-width: 2px;
 }
 
 .bdr-left {
-    border-left-width: 2px;
+    border-left-style: solid;
+    border-width: 2px;
 }
 
 .no-bdr-all {
+    border-style: none;
     border: 0;
 }
 
 .no-bdr-top {
+    border-top-style: solid;
     border-right-width: 2px;
     border-bottom-width: 2px;
     border-left-width: 2px;
 }
 
 .no-bdr-right {
+    border-right-style: solid;
     border-top-width: 2px;
     border-bottom: 2px;
     border-left: 2px;
 }
 
 .no-bdr-bottom {
+    border-bottom-style: solid;
     border-top-width: 2px;
     border-right-width: 2px;
     border-left-width: 2px;
 }
 
 .no-bdr-left {
+    border-left-style: solid;
     border-top-width: 2px;
     border-right-width: 2px;
     border-bottom-width: 2px;
 }
 
 .bdr-primary {
-    border: var(--bdr-primary);
+    border-color: var(--bdr-primary);
 }
 
 .bdr-secondary {
-    border: var(--bdr-default);
+    border-color: var(--bdr-default);
 }
 
 .bdr-success {
-    border: var(--bdr-success);
+    border-color: var(--bdr-success);
 }
 
 .bdr-info {
-    border: var(--bdr-info);
+    border-color: var(--bdr-info);
 }
 
 .bdr-warning {
-    border: var(--bdr-warning);
+    border-color: var(--bdr-warning);
 }
 
 .bdr-danger {
-    border: var(--bdr-danger);
+    border-color: var(--bdr-danger);
 }
+
 /*
     Stripes 
 ===============================*/
