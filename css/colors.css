@@ -37,6 +37,18 @@
     background-color: var(--inverse);
 }
 
+.bg-light {
+    background-color: var(--light);
+}
+
+.bg-wheat {
+    background-color: var(--wheat);
+}
+
+.bg-white {
+    background-color: var(--white);
+}
+
 /*    
     Shades of Black
 ===============================*/
@@ -204,6 +216,18 @@
     border-color: var(--bdr-danger);
 }
 
+.bdr-dark {
+    border-color: var(--dark);
+}
+
+.bdr-light {
+    border-color: var(--bdr-inverse);
+}
+
+.bdr-wheat {
+    border-color: var(--wheat);
+}
+
 /*
     Stripes 
 ===============================*/
@@ -310,7 +334,9 @@
 .txt-danger {
     color: var(--txt-danger);
 }
-
+.txt-inverse {
+    color: var(--txt-inverse);
+}
 /*
     More Colors
 -----------------------------------*/
