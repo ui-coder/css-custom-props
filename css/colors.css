@@ -120,6 +120,7 @@
 ------------------------------------------*/
 [class*="bdr-"],
 [class*="no-bdr-"] {
+    color: var(--bdr-default);
     min-width: 100px;
     min-height: 100px;
     margin: var(--outer);
@@ -128,27 +129,27 @@
 
 .bdr-all {
     border-style: solid;
-    border-width: 2px;
+    border-width: 1px;
 }
 
 .bdr-top {
     border-top-style: solid;
-    border-width: 2px;
+    border-width: 1px;
 }
 
 .bdr-right {
     border-right-style: solid;
-    border-width: 2px;
+    border-width: 1px;
 }
 
 .bdr-bottom {
     border-bottom-style: solid;
-    border-width: 2px;
+    border-width: 1px;
 }
 
 .bdr-left {
     border-left-style: solid;
-    border-width: 2px;
+    border-width: 1px;
 }
 
 .no-bdr-all {
@@ -160,36 +161,36 @@
     border-right-style: solid;
     border-bottom-style: solid;
     border-left-style: solid;
-    border-right-width: 2px;
-    border-bottom-width: 2px;
-    border-left-width: 2px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
 }
 
 .no-bdr-right {
     border-top-style: solid;
     border-bottom-style: solid;
     border-left-style: solid;
-    border-top-width: 2px;
-    border-bottom-width: 2px;
-    border-left-width: 2px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
 }
 
 .no-bdr-bottom {
     border-top-style: solid;
     border-right-style: solid;
     border-left-style: solid;
-    border-top-width: 2px;
-    border-right-width: 2px;
-    border-left-width: 2px;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-left-width: 1px;
 }
 
 .no-bdr-left {
     border-top-style: solid;
     border-right-style: solid;
     border-bottom-style: solid;
-    border-top-width: 2px;
-    border-right-width: 2px;
-    border-bottom-width: 2px;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
 }
 
 .bdr-primary {
