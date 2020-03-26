@@ -97,7 +97,9 @@
     flex-flow: var(--col-rev-wrap-rev);
 }
 
-/*
+/*=====================================
+    FlexBox for Parent Element
+---------------------------------------
     justify-content - X (axis) 
 -------------------------------------*/
 
@@ -129,23 +131,23 @@
     align-items
 -------------------------------------*/
 
-.item-expand {
+.items-expand {
     align-items: var(--expand);
 }
 
-.item-top {
+.items-top {
     align-items: var(--top);
 }
 
-.item-bottom {
+.items-bottom {
     align-items: var(--bottom);
 }
 
-.item-center {
+.items-center {
     align-items: var(--center);
 }
 
-.item-base {
+.items-base {
     align-items: var(--base);
 }
 
