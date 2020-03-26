@@ -98,7 +98,7 @@
 }
 
 /*
-justify-content - X (axis) 
+    justify-content - X (axis) 
 -------------------------------------*/
 
 .justify-start {
@@ -211,7 +211,7 @@ justify-content - X (axis)
 }
 
 .cell {
-    flex-basis: var(--full-width);
+    flex-basis: var(--device-width);
     margin: 5px 0;
     padding: var(--inner);
 }
