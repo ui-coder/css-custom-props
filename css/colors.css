@@ -120,7 +120,7 @@
 ------------------------------------------*/
 [class*="bdr-"],
 [class*="no-bdr-"] {
-    color: var(--bdr-default);
+    border-color: var(--bdr-default);
     min-width: 100px;
     min-height: 100px;
     margin: var(--outer);
