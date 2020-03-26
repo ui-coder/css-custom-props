@@ -129,27 +129,27 @@
 
 .bdr-all {
     border-style: solid;
-    border-width: 1px;
+    border-width: 2px;
 }
 
 .bdr-top {
     border-top-style: solid;
-    border-width: 1px;
+    border-width: 2px;
 }
 
 .bdr-right {
     border-right-style: solid;
-    border-width: 1px;
+    border-width: 2px;
 }
 
 .bdr-bottom {
     border-bottom-style: solid;
-    border-width: 1px;
+    border-width: 2px;
 }
 
 .bdr-left {
     border-left-style: solid;
-    border-width: 1px;
+    border-width: 2px;
 }
 
 .no-bdr-all {
