@@ -48,7 +48,9 @@
 .bg-white {
     background-color: var(--white);
 }
-
+.bg-plum {
+    background-color: var(--plum);
+}
 /*    
     Shades of Black
 ===============================*/
