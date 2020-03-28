@@ -307,7 +307,7 @@
     --left: var(--start);
     /* default */
     --right: var(--end);
-    --centr: center;
+    --center: center;
     --between: space-between;
     --around: space-around;
     --evenly: space-evenly;
@@ -325,7 +325,7 @@
     /* default */
     --start: flex-start;
     --end: flex-end;
-    --centr: center;
+    --center: center;
     --between: space-between;
     --around: space-around;
     /*
@@ -353,7 +353,7 @@
     --expand: stretch;
     --start: flex-start;
     --end: flex-end;
-    --centr: center;
+    --center: center;
     --base: baseline;
     /*
         More Variables
