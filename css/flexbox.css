@@ -102,7 +102,9 @@
 ---------------------------------------
     justify-content - X (axis) 
 -------------------------------------*/
-
+[class*="justify-"]{
+    display: var(--d-flex);
+}
 .justify-start {
     justify-content: var(--left);
 }
@@ -130,7 +132,9 @@
 /*
     align-items
 -------------------------------------*/
-
+[class*="items-"]{
+    display: var(--d-flex);
+}
 .items-expand {
     align-items: var(--expand);
 }
@@ -154,7 +158,9 @@
 /*
     align-content - Y (axis)
 -------------------------------------*/
-
+[class*="align-"]{
+    display: var(--d-flex);
+}
 .align-expand {
     align-content: var(--expand);
 }
@@ -183,7 +189,9 @@
 =======================================
     align-self
 --------------------------------------*/
-
+[class*="self-"]{
+    display: var(--d-flex);
+}
 .self-expand {
     align-self: var(--expand);
 }
